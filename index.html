@@ -1,4 +1,4 @@
-<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Min Personlige App 1.4.40</title><style>
+<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Min Personlige App 1.4.41</title><style>
 :root{font-family:system-ui,Arial,sans-serif;color:#193047;background:#f4f7f8}*{box-sizing:border-box}body{margin:0}.shell{max-width:1100px;margin:auto;padding:18px}header{background:#e4f1ec;border-radius:18px;padding:20px;margin-bottom:16px}h1{margin:0 0 6px;font-size:clamp(23px,4vw,32px)}nav{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}button,.btn{border:0;border-radius:10px;padding:12px 16px;font-size:16px;cursor:pointer;background:#dfe9ec;color:#193047}button.primary,nav button.active{background:#176b58;color:white}.card{background:white;border:1px solid #d9e3e7;border-radius:16px;padding:18px;margin:12px 0}.muted{color:#60747e}.item{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #edf1f2}.item:last-child{border-bottom:0}.item .grow{flex:1}.item input[type=checkbox]{width:23px;height:23px;accent-color:#176b58}input,select,textarea{color-scheme:light;color:#193047;font:inherit;padding:12px;border:1px solid #afc1c7;border-radius:9px;width:100%;background:white}select option{color:#193047!important;background:#ffffff!important}select{color:#193047!important;background:#ffffff!important}label{display:block;margin:12px 0 5px;font-weight:600}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.small{font-size:13px}.tag{font-size:12px;color:#526f76}.overdue{background:#fff8e9;border-left:4px solid #c58a29}.done{text-decoration:line-through;color:#819094}a{color:#176b58;overflow-wrap:anywhere}.hidden{display:none}@media(max-width:620px){.grid{grid-template-columns:1fr}.shell{padding:10px}.card{padding:14px}nav button{flex:1 1 42%}}
 .date-row{display:flex;align-items:stretch;gap:8px}.date-row>input[type=text]{flex:1;min-width:0}.calendar-trigger{position:relative;display:flex;align-items:center;justify-content:center;flex:0 0 52px;background:#dfe9ec;border-radius:10px;font-size:25px;cursor:pointer}.calendar-trigger input[type=date]{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;padding:0}.calendar-trigger:focus-within{outline:2px solid #176b58;outline-offset:2px}
 /* Alle aktiviteter i én lodret kolonne */
@@ -51,7 +51,7 @@
 .history-compact .tag{font-size:12px;white-space:nowrap}
 
 .home-controls{display:flex;justify-content:flex-end;margin:4px 0 0}.home-controls button{font-size:13px;padding:8px 12px}.home-settings{background:#f4faf7}.home-settings h3{margin:0 0 8px}.home-choice{display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid #dfe9e3;font-weight:500;cursor:pointer}.home-choice input{width:20px;height:20px;accent-color:#176b58;flex:0 0 auto}.home-choice button{min-width:70px;font-size:13px;padding:7px 10px}.home-mini-date{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:white;border:1px solid #d9e3e7;padding:10px;border-radius:12px;margin-top:10px}.home-mini-date button{padding:7px 12px}
-.day-top-grid [hidden], [data-home-section][hidden]{display:none!important}.speech-icons{display:flex;align-items:center;gap:8px;margin:-6px 0 14px}.speech-icons button{padding:7px 12px;font-size:20px;min-width:46px}.outstanding-list{margin-top:8px}.outstanding-row{display:flex;align-items:center;gap:6px;padding:3px 2px;margin:0;border-bottom:1px solid #e3e9e8;font-size:14px;line-height:1}.outstanding-row input[type=checkbox]{width:15px;height:15px;flex:0 0 15px;margin:0}.outstanding-row .outstanding-text{font-size:14px;line-height:1;min-width:0}.outstanding-row .outstanding-date{font-size:14px;line-height:1;color:#596d72;margin-left:5px}.outstanding-list .muted{font-size:14px;line-height:1;margin:6px 0}</style></head><body><div class="shell"><header><h1>Min Personlige App</h1><div class="muted">Mit overblik – enkelt og overskueligt</div><div style="margin-top:12px"><button id="developerToggle" type="button" onclick="toggleDeveloperMode()" style="font-size:13px;padding:7px 11px">Vis udviklerværktøjer</button></div></header><nav id="nav"></nav><main id="main"></main><p class="muted small">Version 1.4.40 · Testudgave · Data gemmes lokalt, når browseren tillader det. Overførsel mellem separate forhåndsvisninger er ikke garanteret. Brug ikke følsomme oplysninger endnu.</p></div><script>
+.day-top-grid [hidden], [data-home-section][hidden]{display:none!important}.speech-icons{display:flex;align-items:center;gap:8px;margin:-6px 0 14px}.speech-icons button{padding:7px 12px;font-size:20px;min-width:46px}.outstanding-list{margin-top:8px}.outstanding-row{display:flex;align-items:center;gap:6px;padding:3px 2px;margin:0;border-bottom:1px solid #e3e9e8;font-size:14px;line-height:1}.outstanding-row input[type=checkbox]{width:15px;height:15px;flex:0 0 15px;margin:0}.outstanding-row .outstanding-text{font-size:14px;line-height:1;min-width:0}.outstanding-row .outstanding-date{font-size:14px;line-height:1;color:#596d72;margin-left:5px}.outstanding-list .muted{font-size:14px;line-height:1;margin:6px 0}</style></head><body><div class="shell"><header><h1>Min Personlige App</h1><div class="muted">Mit overblik – enkelt og overskueligt</div><div style="margin-top:12px"><button id="developerToggle" type="button" onclick="toggleDeveloperMode()" style="font-size:13px;padding:7px 11px">Vis udviklerværktøjer</button></div></header><nav id="nav"></nav><main id="main"></main><p class="muted small">Version 1.4.41 · Testudgave · Data gemmes lokalt, når browseren tillader det. Overførsel mellem separate forhåndsvisninger er ikke garanteret. Brug ikke følsomme oplysninger endnu.</p></div><script>
 const KEY='minpersonligeapp_v1';const starter={tasks:[{id:'t1',name:'Købe ind',date:today(),time:'',repeat:'once',done:{}},{id:'t2',name:'Gå en tur',date:today(),time:'13:00',repeat:'daily',done:{}}],links:[{id:'l1',name:'DR',url:'https://www.dr.dk'},{id:'l2',name:'Rejseplanen',url:'https://www.rejseplanen.dk'}]};function displayDate(iso){if(!/^\d{4}-\d{2}-\d{2}$/.test(iso||''))return iso||'';const [y,m,d]=iso.split('-');return `${d}-${m}-${y}`}function parseDate(value){const m=/^(\d{2})-(\d{2})-(\d{4})$/.exec(value.trim());if(!m)return null;const [,d,mo,y]=m;const x=new Date(Number(y),Number(mo)-1,Number(d));return x.getFullYear()===Number(y)&&x.getMonth()+1===Number(mo)&&x.getDate()===Number(d)?`${y}-${mo}-${d}`:null}function today(){return localDate(new Date())}function localDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}let state,initialStorageStatus='';
 try{
  const raw=localStorage.getItem(KEY);
@@ -128,7 +128,7 @@ function submitLink(){
 }
 function deleteLink(id){if(confirm('Vil du slette dette link?')){state.links=state.links.filter(x=>x.id!==id);save();render()}}
 function historyView(){return `<div class="history-compact"><div class="card"><h2>Ændringsoversigt – kun udvikler</h2><p class="muted">Gennemførte ændringer og planlagte forbedringer.</p></div>
-<div class="card"><h3>Historik – gennemført</h3><div class="item"><div><strong>Version 1.4.40 · 20-11-2026</strong><p>Samme automatiske oplæsning og mikrofonstart på mobil og pc, med manuel reservebetjening.</p></div></div><div class="item"><div><strong>Version 1.4.39 · 20-11-2026</strong><p>Udeståendelisten vises direkte uden åbn/luk-menu. Skriftstørrelse 14 px.</p></div></div><div class="item"><div><strong>Version 1.4.38 · 20-11-2026</strong><p>Kompakt udeståendeliste: afkrydsningsfelt efterfulgt direkte af tekst, 12 px og enkelt linjeafstand.</p></div></div><div class="item"><div><strong>Version 1.4.37 · 20-11-2026</strong><p>Udestående opgaver flyttet fra Min dag til selvstændigt punkt i hovedmenuen.</p></div></div><div class="item"><div><strong>Version 1.4.36 · 20-11-2026</strong><p>Udestående opgaver og rutiner i sammenklappelig oversigt med afkrydsning. Mobilstemme med tydelig mikrofonstart og tekstsvar.</p></div></div>
+<div class="card"><h3>Historik – gennemført</h3><div class="item"><div><strong>Version 1.4.41 · 20-11-2026</strong><p>Talegenkendelsen afsluttes helt før næste spørgsmål; forbedret oplæsning og fejlhåndtering på mobil.</p></div></div><div class="item"><div><strong>Version 1.4.40 · 20-11-2026</strong><p>Samme automatiske oplæsning og mikrofonstart på mobil og pc, med manuel reservebetjening.</p></div></div><div class="item"><div><strong>Version 1.4.39 · 20-11-2026</strong><p>Udeståendelisten vises direkte uden åbn/luk-menu. Skriftstørrelse 14 px.</p></div></div><div class="item"><div><strong>Version 1.4.38 · 20-11-2026</strong><p>Kompakt udeståendeliste: afkrydsningsfelt efterfulgt direkte af tekst, 12 px og enkelt linjeafstand.</p></div></div><div class="item"><div><strong>Version 1.4.37 · 20-11-2026</strong><p>Udestående opgaver flyttet fra Min dag til selvstændigt punkt i hovedmenuen.</p></div></div><div class="item"><div><strong>Version 1.4.36 · 20-11-2026</strong><p>Udestående opgaver og rutiner i sammenklappelig oversigt med afkrydsning. Mobilstemme med tydelig mikrofonstart og tekstsvar.</p></div></div>
 <div class="item"><div><strong>Version 1.4.35 · 20-11-2026</strong><p>Automatisk lytning efter hvert stemmespørgsmål; Svar igen bruges ved fejl eller manglende tilladelse.</p></div></div>
 <div class="item"><div><strong>Version 1.4.27 · 20-11-2026</strong><p>Vis/Skjul-knapper får direkte kliklyttere efter hver visning.</p></div></div>
 <div class="item"><div><strong>Version 1.4.19 · 20-11-2026</strong><p>Tekst i ændringsoversigten øget til 12 pkt med fortsat kompakt linjeafstand.</p></div></div>
@@ -167,21 +167,29 @@ function beginVoiceTask(routines){
 }
 function voiceSay(text,then){
  if(!voiceSession)return;
- if(!window.speechSynthesis||typeof SpeechSynthesisUtterance==='undefined'){then();return}
- const u=new SpeechSynthesisUtterance(text);u.lang='da-DK';u.rate=.9;
- const voices=window.speechSynthesis.getVoices();u.voice=voices.find(v=>v.lang.toLowerCase()==='da-dk')||voices.find(v=>v.lang.toLowerCase().startsWith('da'))||null;
- const serial=voiceSerial;let completed=false;
- const next=()=>{if(completed)return;completed=true;if(serial===voiceSerial)then()};
- u.onend=next;u.onerror=next;
- window.speechSynthesis.cancel();window.speechSynthesis.speak(u);
+ if(!window.speechSynthesis||typeof SpeechSynthesisUtterance==='undefined'){voiceUpdate(voiceSession.question,'Oplæsning understøttes ikke på denne enhed. Tryk på Tal nu.');return}
+ const serial=voiceSerial;let finished=false;
+ const next=()=>{if(finished)return;finished=true;if(serial===voiceSerial&&voiceSession)then()};
+ try{
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);u.lang='da-DK';u.rate=.9;
+  const voices=window.speechSynthesis.getVoices();
+  u.voice=voices.find(v=>v.lang.toLowerCase()==='da-dk')||voices.find(v=>v.lang.toLowerCase().startsWith('da'))||null;
+  u.onend=next;
+  u.onerror=e=>{if(serial===voiceSerial&&voiceSession)voiceUpdate(voiceSession.question,'Oplæsningen kunne ikke starte. Tryk på Hør spørgsmålet eller Tal nu.');};
+  window.speechSynthesis.speak(u);
+  window.speechSynthesis.resume();
+ }catch(e){if(voiceSession)voiceUpdate(voiceSession.question,'Oplæsning kunne ikke starte. Tryk på Hør spørgsmålet.')}
 }
-function voiceReplay(){if(voiceSession)voiceSay(voiceSession.question,()=>{})}function voiceTypedAnswer(){const input=document.getElementById('voiceTyped');if(!voiceSession||!input)return;const words=input.value.trim();if(words)voiceAccept(words);else voiceUpdate(voiceSession.question,'Skriv et svar først.')}function voiceAsk(){
+function voiceReplay(){if(voiceSession)voiceSay(voiceSession.question,()=>{if(voiceSession)voiceListen(false)})}
+function voiceTypedAnswer(){const input=document.getElementById('voiceTyped');if(!voiceSession||!input)return;const words=input.value.trim();if(words)voiceAccept(words);else voiceUpdate(voiceSession.question,'Skriv et svar først.')}
+function voiceAsk(){
  if(!voiceSession)return;
  const v=voiceSession;
  const prompts=['Hvad skal du huske?','Hvilken dato? Du kan for eksempel sige den 25. november, eller i morgen.','Hvad er klokkeslættet? Sig for eksempel klokken 10.30 eller intet klokkeslæt.','Hvor ofte skal opgaven gentages? Sig for eksempel kun én gang, hver dag, hver uge eller hver måned.'];
  if(v.step===4){voiceFinish();return}
  const prompt=prompts[v.step];
- voiceUpdate(prompt,'🔊 Appen stiller spørgsmålet. Mikrofonen starter derefter automatisk …');
+ voiceUpdate(prompt,'🔊 Appen stiller spørgsmålet. Vent med at svare, til mikrofonen lytter …');
  voiceSay(prompt,()=>{if(voiceSession===v)voiceListen(false)});
 }
 function voiceListen(manual=false){
@@ -191,14 +199,29 @@ function voiceListen(manual=false){
  voiceListening=true;
  if(window.speechSynthesis)window.speechSynthesis.cancel();
  const r=new VoiceRecognition();voiceRecognizer=r;r.lang='da-DK';r.interimResults=true;r.maxAlternatives=1;r.continuous=false;
- const serial=voiceSerial;
+ const serial=voiceSerial;let finalWords=null;let failed=false;
  voiceUpdate(voiceSession.question,'🎤 Starter mikrofonen …');
  r.onstart=()=>{if(serial===voiceSerial&&voiceSession&&voiceRecognizer===r)voiceUpdate(voiceSession.question,'🎤 Lytter nu … Tal tydeligt.');};
- r.onresult=e=>{if(serial!==voiceSerial||!voiceSession||voiceRecognizer!==r)return;const result=e.results[e.resultIndex]||e.results[0];const words=result[0].transcript.trim();voiceUpdate(voiceSession.question,'Jeg hører: '+words);if(!result.isFinal)return;voiceRecognizer=null;voiceListening=false;voiceAccept(words)};
- r.onerror=e=>{if(serial!==voiceSerial||!voiceSession||voiceRecognizer!==r)return;voiceRecognizer=null;voiceListening=false;voiceUpdate(voiceSession.question,e.error==='not-allowed'?'Browseren har ikke adgang til mikrofonen. Kontrollér mikrofontilladelsen for denne webadresse. Prøv derefter mikrofonknappen igen.':'Kunne ikke høre svaret ('+e.error+'). Tryk på Tal nu igen, eller skriv svaret.')};
- r.onnomatch=()=>{if(serial!==voiceSerial||voiceRecognizer!==r)return;voiceRecognizer=null;voiceListening=false;voiceUpdate(voiceSession.question,'Jeg opfattede ikke svaret. Tryk på Prøv mikrofonen igen.')};
- r.onend=()=>{if(serial!==voiceSerial||voiceRecognizer!==r)return;voiceRecognizer=null;voiceListening=false;voiceUpdate(voiceSession.question,'Lytningen stoppede uden svar. Tryk på Prøv mikrofonen igen.')};
- try{r.start()}catch(e){voiceRecognizer=null;voiceListening=false;voiceUpdate(voiceSession.question,'Kunne ikke starte mikrofonen automatisk. Tryk på Prøv mikrofonen igen.')}
+ r.onresult=e=>{
+  if(serial!==voiceSerial||!voiceSession||voiceRecognizer!==r)return;
+  const result=e.results[e.resultIndex]||e.results[0];if(!result||!result[0])return;
+  const words=result[0].transcript.trim();
+  voiceUpdate(voiceSession.question,'Jeg hører: '+words);
+  if(result.isFinal){finalWords=words;try{r.stop()}catch(e){}}
+ };
+ r.onerror=e=>{
+  if(serial!==voiceSerial||!voiceSession||voiceRecognizer!==r)return;
+  failed=true;voiceRecognizer=null;voiceListening=false;
+  voiceUpdate(voiceSession.question,e.error==='not-allowed'?'Browseren har ikke adgang til mikrofonen. Kontrollér mikrofontilladelsen.':'Kunne ikke høre svaret ('+e.error+'). Tryk på Tal nu igen.');
+ };
+ r.onnomatch=()=>{if(serial===voiceSerial&&voiceRecognizer===r)voiceUpdate(voiceSession.question,'Jeg opfattede ikke svaret. Prøv igen.')};
+ r.onend=()=>{
+  if(serial!==voiceSerial||!voiceSession||voiceRecognizer!==r)return;
+  voiceRecognizer=null;voiceListening=false;
+  if(!failed&&finalWords){voiceAccept(finalWords)}
+  else if(!failed)voiceUpdate(voiceSession.question,'Lytningen stoppede uden svar. Tryk på Tal nu igen.');
+ };
+ try{r.start()}catch(e){voiceRecognizer=null;voiceListening=false;voiceUpdate(voiceSession.question,'Kunne ikke starte mikrofonen. Tryk på Tal nu igen.')}
 }
 function voiceDate(text){
  const raw=text.toLowerCase().replace(/[.,]/g,' ').replace(/\s+/g,' ').trim();
